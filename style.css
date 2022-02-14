@@ -1,0 +1,90 @@
+body{
+    background-color: rgba(252, 47, 252, 0.26);
+}
+#container{
+    background-color:azure;
+    height: auto;
+    width: auto;
+    margin-top: 40;
+}
+
+#container *{
+    padding: 10px;
+    margin-left: 350px;
+}
+
+#symbol{
+    display: flex;
+    margin-left: 710px
+}
+
+.inp{
+    margin: 10px;
+    width: 800px;
+    height: 60px;
+    padding:10px;
+    border: 5px solid teal;
+    text-align: center;
+    font-size: 26px;
+    font-style:italic;
+    border-radius: 20px;
+    background-color:rgba(0, 255, 157, 0.404);
+}
+
+#answer{
+    margin:10px;
+    margin-top: 5px;
+    width: 1500px;
+    height: 80px;
+    border: 5px solid rgb(31, 39, 39);
+    display: flex;
+    text-align: center;
+    font-size: 50px;
+    font-style:italic;
+    border-radius: 20px;
+    background-color:bisque;
+    color:black
+}
+
+
+#container form{
+    text-align: center;
+    display: flex;
+}
+
+#btns{
+    display: flex;
+    margin-left: 500px;
+}
+button{
+    cursor: pointer;
+    margin: 10px;
+}
+
+#components{
+    display: flex;
+}
+
+#true{
+    margin-left:10px;
+    font-weight: bolder;
+    color: green;
+}
+
+#false{
+    margin-left:490px;
+    font-weight: bolder;
+    color: red;
+}
+
+#trueCount{
+    margin-left:2px;
+    font-weight: bolder;
+    color: green;
+}
+
+#falseCount{
+    margin-left:2px;
+    font-weight: bolder;
+    color: red;
+}

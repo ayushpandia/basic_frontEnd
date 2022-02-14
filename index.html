@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo center">Tables</a>
+          <ul id="nav-mobile" class="left hide-on-med-and-down">
+            <!-- <li><a href="collapsible.html">JavaScript</a></li> -->
+          </ul>
+        </div>
+      </nav>
+
+      <form action="#">
+        <p class="range-field">
+          <input number="one" type="range" id="test5" min="0" max="40" />
+        </p>
+      </form>
+
+      <form action="#">
+        <p class="range-field">
+          <input number="two" type="range" id="test5" min="0" max="40" />
+        </p>
+      </form>
+
+      <div id="container">
+        
+          <div id="firstNumber" class="inp"></div>
+          <i id="symbol" class="medium material-icons">close</i>
+          <div id="secondNumber" class="inp"></div>
+      </div>
+
+      <i id="symbol" class="medium material-icons">drag_handle</i>
+  
+      <input type="text" id="answer" name="fname">
+
+      <div id="components">
+          <span id="true">Correct Answers :</span>
+          <span id="trueCount">0</span>
+        <div id="btns">
+            <button class="btn waves-effect waves-light" type="submit" name="submit">Submit
+                <i class="material-icons right">send</i>
+              </button>
+        
+              <button class="btn waves-effect waves-light" type="submit" name="next">Next
+                <i class="material-icons right">send</i>
+              </button>
+        </div>
+          <span id="false">Wrong Answers :</span>
+          <span id="falseCount">0</span>
+      </div>
+
+     <!-- Compiled and minified JavaScript -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+     <script src="logic.js"></script>
+</body>
+</html>
