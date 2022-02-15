@@ -38,7 +38,7 @@
         let divfirstNumber = container.querySelector("#firstNumber")
         let max1 =  document.querySelector("input[number=one]").value
         let max2 =  document.querySelector("input[number=two]").value
-        firstNumber = randomInt(1, max1)
+        firstNumber = max1
         secondNumber = randomInt(1, max2)
 
         divfirstNumber.innerHTML = firstNumber
