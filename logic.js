@@ -26,6 +26,26 @@
             wa+=1
         }
     })
+    
+    SubmitBtn.addEventListener("keyup", function(e){
+        e.preventDefault()
+        if(e.keyCode == 13)
+        {
+            let answer =  formAnswer.value
+            if (answer == (firstNumber * secondNumber))
+            {
+                formAnswer.style.color = "green"
+                ac+=1
+                return 
+            }
+            else 
+            {
+                formAnswer.style.color = "red"
+                formAnswer.value="The correct answer is " + (firstNumber * secondNumber);
+                wa+=1
+            }
+        }
+    })
 
     Nextbtn.addEventListener("click", newGame)
 
